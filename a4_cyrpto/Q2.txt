@@ -1,0 +1,3 @@
+The security of the blum blum shub is based on the difficulty of factoring n into p and q. Thus its bits of security is the min_bits { p, q}.
+If we are able to factor n then we can break the BBS. Thus we will need the primes to be at least 128 bits in length.
+To match aes-128 security we will need both primes to be at least 128 bits since aes has a 128 bits of security.
